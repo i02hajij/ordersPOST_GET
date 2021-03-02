@@ -1,0 +1,25 @@
+{
+  "name": "orderspost_get",
+  "version": "1.0.0",
+  "description": "Script para cargar pedidos y luego ver tiempos de recuperar esos pedidos",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Manuel de la Haba Jimenez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "delay": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1",
+    "momment": "0.0.1",
+    "mongoose": "^5.11.18",
+    "pug": "^3.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
