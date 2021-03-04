@@ -131,7 +131,7 @@ const performanceTestPost = async (esqueletos, id) => {
             ' de ' +
             totalMensajes +
             ' => ' +
-            (numMensaje * 100) / totalMensajes +
+            ((numMensaje * 100) / totalMensajes).toFixed(2) +
             '%'
         );
       }
